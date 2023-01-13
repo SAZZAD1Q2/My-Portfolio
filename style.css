@@ -16,13 +16,6 @@ header {
   padding-bottom: 1px;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  display: none;
-}
-
 .flex-container li {
   list-style: none;
   color: #fff;
@@ -137,4 +130,3 @@ header {
   bottom: 0.36%;
   overflow: hidden;
 }
-
