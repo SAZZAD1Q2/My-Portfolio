@@ -8,6 +8,25 @@ header {
   background: #3c3a39;
   color: white;
 }
+.contact{
+    width: 375px;
+    background: #3c3a39;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.flex-container{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   display: none;
+}
+#check:checked ~ .flex-container{
+    display: block;
+}
+.flex-container li{
+    list-style: none;
+    color: #ffffff;
+}
 .logo h1 {
   height: 24px;
   padding-left: 24px;
